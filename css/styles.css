@@ -16,24 +16,45 @@ body {
     padding: 0;
     background-color: var(--macchiato-base);
     color: var(--macchiato-text);
+    align-items: center;
 }
 
 nav {
-    text-align: center;
+    left: 0px;
+    height: 40px;
     background-color: var(--macchiato-mantle);
-    padding: 10px;
-    border-bottom: 3px solid var(--macchiato-crust);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 3px solid var(--macchiato-crust);
+    width: 25%;
+    margin: 0 auto;
 }
 
-nav a {
-    color: var(--macchiato-text);
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+nav ul li a {
     text-decoration: none;
-    margin: 0 10px;
+    padding: 10px 20px;
+    display: block;
+    color: var(--macchiato-text);
+    text-align: center;
 }
 
-nav a:hover {
-    color: var(--macchiato-subtext0);;
+nav ul li a:hover {
+    color: var(--macchiato-subtext0)
 }
+
 
 /*
 .dropdown {
@@ -70,8 +91,8 @@ nav a:hover {
 
 .left-column {
     border-radius: 15px;
-    background-color: var(--macchiato-surface0);
     border: 3px solid var(--macchiato-crust);
+    background-color: var(--macchiato-surface0);
     flex: 1;
     padding: 20px;
     margin: 10px;
