@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'Sandana';
+    src: url('../fonts/Sandana-Regular.eot');
+    src: url('../fonts/Sandana-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Sandana-Regular.woff2') format('woff2'),
+        url('../fonts/Sandana-Regular.woff') format('woff'),
+        url('../fonts/Sandana-Regular.ttf') format('truetype'),
+        url('../fonts/Sandana-Regular.svg#Sandana-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--macchiato-base);
+    color: var(--macchiato-text);
+}
+
+nav {
+    text-align: center;
+    background-color: var(--macchiato-mantle);
+    padding: 10px;
+    border-bottom: 3px solid var(--macchiato-crust);
+}
+
+nav a {
+    color: var(--macchiato-text);
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    color: var(--macchiato-subtext0);;
+}
+
+/*
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    border-radius: 5px;
+    background-color: var(--macchiato-surface0);
+    border: 2px solid var(--macchiato-crust);
+}
+
+.dropdown-content p {
+    padding: 5px;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+*/
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.left-column {
+    border-radius: 15px;
+    background-color: var(--macchiato-surface0);
+    border: 3px solid var(--macchiato-crust);
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    height: fit-content;
+    text-align: center;
+}
+
+.photo {
+    width: 530px;
+    height: auto;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 0 auto;
+
+}
+
+.right-column {
+    border-radius: 15px;
+    background-color: var(--macchiato-surface0);
+    border: 3px solid var(--macchiato-crust);
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    height: 535px;
+}
+
+.name {
+    font-size: 3em;
+    margin-bottom: -5px;
+    font-family: "Sandana", serif;
+    color: var(--macchiato-teal)
+}
+
+.title {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    font-family: serif;
+    color: var(--macchiato-subtext0)
+
+}
+
+.summary {
+    font-size: 1.2em;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+}

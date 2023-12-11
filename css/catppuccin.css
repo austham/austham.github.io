@@ -1,0 +1,118 @@
+/*
+ * Catppuccin Pallette 
+ * Generated from Catppuccin for Python v1.3.2
+ */
+:root {
+
+	/* frappe */
+	--frappe-rosewater: #dc8a78;
+	--frappe-flamingo: #dd7878;
+	--frappe-pink: #ea76cb;
+	--frappe-mauve: #8839ef;
+	--frappe-red: #d20f39;
+	--frappe-maroon: #e64553;
+	--frappe-peach: #fe640b;
+	--frappe-yellow: #df8e1d;
+	--frappe-green: #40a02b;
+	--frappe-teal: #179299;
+	--frappe-sky: #04a5e5;
+	--frappe-sapphire: #209fb5;
+	--frappe-blue: #1e66f5;
+	--frappe-lavender: #7287fd;
+	--frappe-text: #4c4f69;
+	--frappe-subtext1: #5c5f77;
+	--frappe-subtext0: #6c6f85;
+	--frappe-overlay2: #7c7f93;
+	--frappe-overlay1: #8c8fa1;
+	--frappe-overlay0: #9ca0b0;
+	--frappe-surface2: #acb0be;
+	--frappe-surface1: #bcc0cc;
+	--frappe-surface0: #ccd0da;
+	--frappe-base: #eff1f5;
+	--frappe-mantle: #e6e9ef;
+	--frappe-crust: #dce0e8;
+
+	/* latte */
+	--latte-rosewater: #f2d5cf;
+	--latte-flamingo: #eebebe;
+	--latte-pink: #f4b8e4;
+	--latte-mauve: #ca9ee6;
+	--latte-red: #e78284;
+	--latte-maroon: #ea999c;
+	--latte-peach: #ef9f76;
+	--latte-yellow: #e5c890;
+	--latte-green: #a6d189;
+	--latte-teal: #81c8be;
+	--latte-sky: #99d1db;
+	--latte-sapphire: #85c1dc;
+	--latte-blue: #8caaee;
+	--latte-lavender: #babbf1;
+	--latte-text: #c6d0f5;
+	--latte-subtext1: #b5bfe2;
+	--latte-subtext0: #a5adce;
+	--latte-overlay2: #949cbb;
+	--latte-overlay1: #838ba7;
+	--latte-overlay0: #737994;
+	--latte-surface2: #626880;
+	--latte-surface1: #51576d;
+	--latte-surface0: #414559;
+	--latte-base: #303446;
+	--latte-mantle: #292c3c;
+	--latte-crust: #232634;
+
+	/* mocha */
+	--mocha-rosewater: #f4dbd6;
+	--mocha-flamingo: #f0c6c6;
+	--mocha-pink: #f5bde6;
+	--mocha-mauve: #c6a0f6;
+	--mocha-red: #ed8796;
+	--mocha-maroon: #ee99a0;
+	--mocha-peach: #f5a97f;
+	--mocha-yellow: #eed49f;
+	--mocha-green: #a6da95;
+	--mocha-teal: #8bd5ca;
+	--mocha-sky: #91d7e3;
+	--mocha-sapphire: #7dc4e4;
+	--mocha-blue: #8aadf4;
+	--mocha-lavender: #b7bdf8;
+	--mocha-text: #cad3f5;
+	--mocha-subtext1: #b8c0e0;
+	--mocha-subtext0: #a5adcb;
+	--mocha-overlay2: #939ab7;
+	--mocha-overlay1: #8087a2;
+	--mocha-overlay0: #6e738d;
+	--mocha-surface2: #5b6078;
+	--mocha-surface1: #494d64;
+	--mocha-surface0: #363a4f;
+	--mocha-base: #24273a;
+	--mocha-mantle: #1e2030;
+	--mocha-crust: #181926;
+
+	/* macchiato */
+	--macchiato-rosewater: #f5e0dc;
+	--macchiato-flamingo: #f2cdcd;
+	--macchiato-pink: #f5c2e7;
+	--macchiato-mauve: #cba6f7;
+	--macchiato-red: #f38ba8;
+	--macchiato-maroon: #eba0ac;
+	--macchiato-peach: #fab387;
+	--macchiato-yellow: #f9e2af;
+	--macchiato-green: #a6e3a1;
+	--macchiato-teal: #94e2d5;
+	--macchiato-sky: #89dceb;
+	--macchiato-sapphire: #74c7ec;
+	--macchiato-blue: #89b4fa;
+	--macchiato-lavender: #b4befe;
+	--macchiato-text: #cdd6f4;
+	--macchiato-subtext1: #bac2de;
+	--macchiato-subtext0: #a6adc8;
+	--macchiato-overlay2: #9399b2;
+	--macchiato-overlay1: #7f849c;
+	--macchiato-overlay0: #6c7086;
+	--macchiato-surface2: #585b70;
+	--macchiato-surface1: #45475a;
+	--macchiato-surface0: #313244;
+	--macchiato-base: #1e1e2e;
+	--macchiato-mantle: #181825;
+	--macchiato-crust: #11111b;
+}
